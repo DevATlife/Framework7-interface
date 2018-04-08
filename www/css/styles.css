@@ -1,0 +1,109 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 5px !important;
+    -webkit-margin-after: 5px !important;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 5px !important;
+}
+        ul li{
+            list-style: none;
+        }  
+    
+        
+        .item-media i{
+         margin-right:12px; 
+            margin: 12px;
+        }
+        
+        .size-45{
+            font-size: 45px;
+        }
+            
+
+
+.size-35{
+    font-size: 35px;
+}
+  
+
+.toolbar, .navbar{
+    
+  background: #751aff;  
+  color:white;
+  
+}
+
+.navbar i,a{
+  color:white;
+}
+
+
+#row-j{
+    margin-bottom: 30px;
+}
+
+.block{
+    text-align: center;
+    margin:0 auto !important;
+    padding-left:20px;
+    padding-right:20px;
+    
+}
+
+
+.col-50 {
+background: #751aff;  
+    color:white;
+    padding:25px;
+    margin-bottom:5px;
+    border-radius:5px;
+}
+
+
+/*-------- movies list styling------*/
+
+.content-block{
+    
+    padding:0 !important;
+}
+
+
+.popup-overlay.modal-overlay-visible{
+    visibility: hidden !important;
+}
+
+.popup{
+    top:50px !important;
+    height: 100% !important;
+}
+
+.popup a{
+    color:white;
+}
+
+.button{
+    padding: 12px;
+    height: 50px;
+    background: #751aff;
+    color:white;
+    border: 1px solid #751aff;
+}
+
