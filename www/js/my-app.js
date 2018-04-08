@@ -14,7 +14,7 @@ var mainView = myApp.addView('.view-main', {
 // Handle Cordova Device Ready Event
 $$(document).on('deviceready', function() {
     console.log("Device is ready!");
-    $('.col-50').css('background', '#4bbb3b');   
+      
 });
 
 /*----------------------------- onPageInit function -----------------------------------*/
